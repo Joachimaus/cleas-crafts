@@ -49,10 +49,15 @@ social:
 
 # About Section
 blurb:
-  Cleas's Crafts is your one-stop-shop for the very best Lorem ipsum dolor sit amet, consectetur adipisicing elit. A doloremque reprehenderit iure eligendi maiores, officia ea dolores recusandae voluptates error voluptatum atque, expedita. Aspernatur, quae itaque enim minus, voluptatum eum.
+  Cleas's Crafts is your one-stop-shop for the very best Lorem ipsum dolor sit amet, consectetur adipisicing elit. A doloremque.
+  <br><br><strong>Upcoming classes:</strong>
+  <br>Saturday - 2 November 2019 FULLY BOOKED
+  <br>Saturday - 9 November 2019 FULLY BOOKED
+  <br>Saturday - 16 November 2019 FULLY BOOKED
+  <br><strong>Get in touch for other dates</strong>
 
 blurb-btn-link: '/about'
-blurb-btn-name: know more
+blurb-btn-name: Learn more about me
 
 
 # About Page

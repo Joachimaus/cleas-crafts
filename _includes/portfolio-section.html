@@ -12,10 +12,12 @@
           <img src="{{ site.baseurl }}/{{ class.image }}" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
           <div class="hover-overlay">
             <div class="hover-content">
-              <h4 class="text-white font-weight-bold">{{ class.title }}</h4>
-              <h5 class="text-white font-weight-bold">{{ class.price }}</h5>
-              <a class="btn btn-light btn-sm" href="{{ class.url }}">view lesson</a>
-              }
+              <h4 class="text-white font-weight-bold d-none d-md-block">{{ class.title }}</h4>
+              <h5 class="text-white font-weight-bold d-none d-md-block">{{ class.price }}</h5>
+              <a class="btn btn-light btn-xs d-none d-md-block" href="{{ class.url }}">view lesson</a>
+              <span class="text-white font-weight-bold d-block d-md-none">{{ class.title }}</span>
+              <span class="text-white font-weight-bold d-block d-md-none">{{ class.price }}</span>
+              <a class="d-block d-md-none small text-white" href="{{ class.url }}">View lesson</a>
             </div>
           </div>
         </div>

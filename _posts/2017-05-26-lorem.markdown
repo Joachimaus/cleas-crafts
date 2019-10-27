@@ -1,10 +1,11 @@
 ---
 layout: post
-title:  Lorem
-date:   2019-10-26 15:05:55 +0300
-image:  ../portfolio/item-2.jpg
+title: Lorem
+date: 2019-10-26T12:05:55.000+00:00
+image: "../portfolio/item-2.jpg"
 author: Clea Garrick
-tags:   sewing
+tags: sewing
+
 ---
 ![post-thumb]({{site.baseurl}}/assets/images/blog/post-1.jpg){:class="img-fluid rounded float-left mr-5 mb-4"}
 

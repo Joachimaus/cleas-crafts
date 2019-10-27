@@ -1,12 +1,14 @@
 ---
 layout: about
 title: Private Sewing
-image : "assets/images/portfolio/item-3.jpg"
+image: assets/images/portfolio/item-3.jpg
 url: "#"
-date: 2019-10-14 05:06:26 -0500
+date: 2019-10-14T10:06:26.000+00:00
 type: individual
-price: $50pp/hour
-excerpt: I offer one-on-one private classes both during the week and on weekends which we tailor to suit you and your needs.
+price: "$50pp/hour"
+excerpt: I offer one-on-one private classes both during the week and on weekends which
+  we tailor to suit you and your needs.
+
 ---
 Days: Saturdays & Sundays
 

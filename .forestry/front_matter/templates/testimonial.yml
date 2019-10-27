@@ -11,3 +11,5 @@ fields:
 - type: text
   name: designation
   label: designation
+pages:
+- _testimonials/Alanna Williams copy.md

@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Classes Creative Clasess
+title: Clea's Creative Classes
 hero: Creative Classes <br> With Clea <br> <a href="#contact" class="btn btn-secondary
   btn-sm m-2 smoothscroll">Book Now</a><a href="#classes" class="btn btn-secondary
   btn-sm m-2 smoothscroll">Find a class</a>

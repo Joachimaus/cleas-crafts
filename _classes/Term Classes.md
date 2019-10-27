@@ -1,12 +1,14 @@
 ---
 layout: about
 title: Term Classes
-image : "assets/images/portfolio/item-5.jpg"
+image: assets/images/portfolio/item-5.jpg
 url: "#"
-date: 2019-10-14 05:06:26 -0500
+date: 2019-10-14T10:06:26.000+00:00
 type: school
-price: $50pp/hour
-excerpt: This is intro text fugiat atque natus, nisi asperiores quidem? Iusto consectetur alias, ut molestiae eaque nobis obcaecati!
+price: "$50pp/hour"
+excerpt: This is intro text fugiat atque natus, nisi asperiores quidem? Iusto consectetur
+  alias, ut molestiae eaque nobis obcaecati!
+
 ---
 Days: Saturdays & Sundays
 

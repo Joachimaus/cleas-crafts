@@ -1,12 +1,22 @@
 <!-- about -->
-<section id="about" class="section">
+<section id="about" class="section pt-5 pb-0">
   <div class="container">
     <div class="row">
-      <div class="col-lg-10 mx-auto text-center">
-      	<h1 class="section-title">{{ page.headline }}</h1>
-        <p class="font-secondary paragraph-lg text-dark">{{ page.content }}</p>
-        <a href="{{ page.blurb-btn-link }}" class="btn btn-primary">{{ page.blurb-btn-name }}</a>
+      <div class="col-md-8 mx-auto">
+      	<h3 class="section-title mb-4">{{ page.headline }}</h3>
       </div>
+      <div class="col-md-4 text-center drag-lg-top">
+        <div class="shadow-down mb-4">
+          <img src="{{ site.baseurl }}/{{ page.image }}" alt="{{ page.author }}" class="img-fluid w-100 rounded-lg border-thick border-white">
+        </div>
+        <!-- <img src="{{ site.baseurl }}/{{ page.signature }}" alt="signature" class="img-fluid"> -->
+        <h4>{{ page.author }}</h4>
+      </div>
+    </div>
+    <div class="row">
+    	<div class="col text-center">
+    		<p class="font-secondary paragraph-lg text-dark">{{ page.content }}</p>
+    	</div>
     </div>
   </div>
 </section>

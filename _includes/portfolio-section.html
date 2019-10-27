@@ -1,4 +1,4 @@
-<section class="section">
+<section id="classes" class="section">
   <div class="container">
     <div class="row">
       <div class="col-12 text-center">
@@ -6,13 +6,13 @@
       </div>
     </div>
     <div class="row shuffle-wrapper">
-      {% for class in site.classes %}
+      {% for class in site.classes | limit:5 %}
       <div class="col-lg-4 col-6 mb-4 shuffle-item">
         <div class="position-relative rounded hover-wrapper">
           <img src="{{ site.baseurl }}/{{ class.image }}" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
           <div class="hover-overlay">
             <div class="hover-content">
-              <h4 class="text-white font-weight-bold">{{ class.name }}</h4>
+              <h4 class="text-white font-weight-bold">{{ class.title }}</h4>
               <h5 class="text-white font-weight-bold">{{ class.price }}</h5>
               <a class="btn btn-light btn-sm" href="{{ class.url }}">view lesson</a>
               }
@@ -21,6 +21,11 @@
         </div>
       </div>
       {% endfor %}
+    </div>
+    <div class="row">
+      <div class="col text-center pt-3">
+        <a href="/classes" class="btn btn-primary">See all classes</a>
+      </div>
     </div>
   </div>
 </section>

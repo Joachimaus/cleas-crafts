@@ -34,31 +34,11 @@ disqus-identifier: # Add your shortname for Disqus Comment. For example mr-brown
 #-------------------------------
 # Hero Section
 
-hero:
-  hero-title: Hi! <br> I’m Clea <br> Fashion designer
-
 social:
 - {icon: "ti-facebook", link: "#"}
 - {icon: "ti-instagram", link: "#"}
 - {icon: "ti-dribbble", link: "#"}
 - {icon: "ti-twitter", link: "#"}
-
-
-#-------------------------------
-# About (Section and Page)
-
-# About Section
-blurb:
-  Cleas's Crafts is your one-stop-shop for the very best Lorem ipsum dolor sit amet, consectetur adipisicing elit. A doloremque.
-  <br><br><strong>Upcoming classes:</strong>
-  <br>Saturday - 2 November 2019 FULLY BOOKED
-  <br>Saturday - 9 November 2019 FULLY BOOKED
-  <br>Saturday - 16 November 2019 FULLY BOOKED
-  <br><strong>Get in touch for other dates</strong>
-
-blurb-btn-link: '/about'
-blurb-btn-name: Learn more about me
-
 
 # About Page
 
@@ -123,54 +103,6 @@ education:
 - {name: Higher Secondary Certificat, date: '2000', organization: 'Cardiff School'}
 - {name: Secondary School Certificate, date: '1998', organization: 'Cardiff School'}
 
-
-#-------------------------------
-# Services Section
-
-services-title: Services
-services:
-- {
-    name: Adult sewing classes,
-    icon: ti-palette,
-    description: 'Beginners, Intermediate & Advanced Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-    active: # Add true to select section
-  }
-- {
-    name: School Holiday sewing classes,
-    icon: ti-vector,
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-    active: true # Add true to select section
-  }
-- {
-    name: Individual sewing tuition,
-    icon: ti-panel,
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-    active: # Add true to select section
-  }
-
-
-
-#-------------------------------
-# Latest Classes (Section and Page)
-
-# Latest Classes Home Section
-portfolio-home-items:
-  - image : "assets/images/portfolio/item-1.jpg"
-    url: "#"
-    
-  - image : "assets/images/portfolio/item-2.jpg"
-    url: "#"
-    
-  - image : "assets/images/portfolio/item-3.jpg"
-    url: "#"
-    
-  - image : "assets/images/portfolio/item-4.png"
-    url: "#"
-    
-  - image : "assets/images/portfolio/item-5.jpg"
-    url: "#"
-
-
 # Portfolio Page
 portfolio-label:
 - {
@@ -220,27 +152,6 @@ portfolio-items:
       - type: "adult"
       - type: "individual"
       - type: "school"
-
-#-------------------------------
-# Testimonials Section
-
-testimonial-items:
-  - name: "Jesica Gomez"
-    image: "assets/images/testimonial/client-1.png"
-    designation : "CEO, Funder"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
-    
-  - name: "Jesica Gomez"
-    image: "assets/images/testimonial/client-1.png"
-    designation: "CEO, Funder"
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
-    
-  - name: "Jesica Gomez"
-    image: "assets/images/testimonial/client-1.png"
-    designation: "CEO, Funder"
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
-
-
 #-------------------------------
 # Client Slider Section
 

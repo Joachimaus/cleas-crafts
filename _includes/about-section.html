@@ -1,10 +1,11 @@
 <!-- about -->
-<section class="section">
+<section id="about" class="section">
   <div class="container">
     <div class="row">
       <div class="col-lg-10 mx-auto text-center">
-        <p class="font-secondary paragraph-lg text-dark">{{ site.data.settings.blurb }}</p>
-        <a href="{{ site.data.settings.blurb-btn-link }}" class="btn btn-transparent">{{ site.data.settings.blurb-btn-name }}</a>
+      	<h1 class="section-title">{{ page.headline }}</h1>
+        <p class="font-secondary paragraph-lg text-dark">{{ page.content }}</p>
+        <a href="{{ page.blurb-btn-link }}" class="btn btn-primary">{{ page.blurb-btn-name }}</a>
       </div>
     </div>
   </div>

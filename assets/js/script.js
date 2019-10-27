@@ -1,6 +1,15 @@
 (function ($) {
     'use strict';
-
+    
+    /**
+    ** Add smooth scroll to partials #links
+    **/
+    $('a.smoothscroll[href^="#"]:not([href="#"])').click(function(event) {
+      event.preventDefault();
+      var target_offset = $(this.hash).offset() ? $(this.hash).offset().top : 0;
+      var customoffset = 0;
+      $('html, body').animate({scrollTop:target_offset - customoffset}, 500);
+    });
 
 
     // Sticky Menu

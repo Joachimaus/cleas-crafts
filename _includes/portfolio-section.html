@@ -1,20 +1,20 @@
-{% if site.data.settings.portfolio-home-items %}
-<!-- portfolio -->
 <section class="section">
   <div class="container">
     <div class="row">
       <div class="col-12 text-center">
-        <h2 class="section-title">Latest Classes</h2>
+        <h2 class="section-title">Classes for everyone</h2>
       </div>
     </div>
     <div class="row shuffle-wrapper">
-      {% for item in site.data.settings.portfolio-home-items %}
+      {% for class in site.classes %}
       <div class="col-lg-4 col-6 mb-4 shuffle-item">
         <div class="position-relative rounded hover-wrapper">
-          <img src="{{ site.baseurl }}/{{ item.image }}" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+          <img src="{{ site.baseurl }}/{{ class.image }}" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
           <div class="hover-overlay">
             <div class="hover-content">
-              <a class="btn btn-light btn-sm" href="{{ item.url }}">view lesson</a>
+              <h4 class="text-white font-weight-bold">{{ class.name }}</h4>
+              <a class="btn btn-light btn-sm" href="{{ class.url }}">view lesson</a>
+              }
             </div>
           </div>
         </div>
@@ -23,5 +23,3 @@
     </div>
   </div>
 </section>
-<!-- /portfolio -->
-{% endif %}

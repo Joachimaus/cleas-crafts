@@ -7,6 +7,14 @@ permalink: pretty
 plugins:
   - jekyll-sitemap
 
+collections:
+  classes:
+    title: classes
+    output: true
+  testimonials:
+    title: testimonials
+    output: true
+
 # Pages Path
 defaults:
   - scope:

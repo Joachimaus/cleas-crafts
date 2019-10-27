@@ -1,0 +1,16 @@
+---
+label: Testimonial
+hide_body: false
+fields:
+- type: text
+  name: name
+  label: name
+- type: file
+  name: image
+  label: image
+- type: text
+  name: designation
+  label: designation
+pages:
+- _testimonials/Alanna Williams copy.md
+- _testimonials/Alanna Williams.md

@@ -1,0 +1,24 @@
+---
+label: Classes Page
+hide_body: false
+fields:
+- type: text
+  name: layout
+  label: layout
+- type: text
+  name: title
+  label: title
+- type: textarea
+  name: hero
+  label: hero
+- type: text
+  name: headline
+  label: headline
+- type: text
+  name: services-title
+  label: services-title
+- type: file
+  name: image
+  label: image
+pages:
+- index.md

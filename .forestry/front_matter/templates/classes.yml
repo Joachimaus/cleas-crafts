@@ -1,0 +1,34 @@
+---
+label: Classes
+hide_body: false
+fields:
+- type: text
+  name: layout
+  label: layout
+- type: text
+  name: title
+  label: title
+- type: file
+  name: image
+  label: image
+- type: text
+  name: url
+  label: url
+- type: datetime
+  name: date
+  label: date
+- type: text
+  name: type
+  label: type
+- type: text
+  name: price
+  label: price
+- type: textarea
+  name: excerpt
+  label: excerpt
+pages:
+- _classes/School Holiday sewing classes.md
+- _classes/Adult sewing classes.md
+- _classes/Private Sewing.md
+- _classes/Sewing Parties.md
+- _classes/Term Classes.md

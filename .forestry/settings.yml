@@ -8,12 +8,12 @@ sections:
   label: Posts
   create: all
 - type: directory
-  path: classes
+  path: _classes
   label: Classes
   create: all
   match: "**/*"
 - type: directory
-  path: testimonials
+  path: _testimonials
   label: Testimonials
   create: all
   match: "**/*"

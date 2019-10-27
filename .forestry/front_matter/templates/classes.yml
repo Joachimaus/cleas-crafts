@@ -27,5 +27,6 @@ fields:
   name: excerpt
   label: excerpt
 pages:
+- _classes/School Holiday sewing classes.md
 - _classes/Adult sewing classes.md
 - _classes/Private Sewing.md

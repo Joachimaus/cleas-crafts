@@ -1,12 +1,14 @@
 ---
 layout: about
 title: School Holiday
-image : "assets/images/portfolio/item-2.jpg"
+image: assets/images/portfolio/item-2.jpg
 url: "#"
-date: 2019-10-14 05:06:26 -0500
+date: 2019-10-14T10:06:26.000+00:00
 type: school
-price: $50pp/hour
-excerpt: We offer fun and inspiring 4 day courses to girls and boys aged 9 -17 years  which are designed for our young and creative sewers of the future.
+price: "$50pp/hour"
+excerpt: We offer fun and inspiring 4 day courses to girls and boys aged 9 -17 years  which
+  are designed for our young and creative sewers of the future.
+
 ---
 Days: Saturdays & Sundays
 

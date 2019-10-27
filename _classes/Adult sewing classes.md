@@ -1,12 +1,14 @@
 ---
 layout: about
 title: Adult sewing
-image : "assets/images/portfolio/item-1.jpg"
+image: assets/images/portfolio/item-1.jpg
 url: "#"
-date: 2019-10-14 05:06:26 -0500
+date: 2019-10-14T10:06:26.000+00:00
 type: adult
-price: $50pp/hour
-excerpt: For those who would like a project based course, our open classes welcome all levels from beginners to advanced.
+price: "$50pp/hour"
+excerpt: For those who would like a project based course, our open classes welcome
+  all levels from beginners to advanced.
+
 ---
 Days: Saturdays & Sundays
 
